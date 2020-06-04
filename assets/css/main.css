@@ -253,7 +253,7 @@ section {
 }
 .btn--filledLight {
   color: #fff;
-  background-color: #38a9bf;
+  background-color: #205250;
   border: 1px solid transparent;
   transition: 0.3s ease-in-out;
   text-decoration: none;
@@ -262,8 +262,8 @@ section {
 .btn--filledLight:hover {
   text-decoration: none;
   transition: 0.3s ease-in-out;
-  color: #38a9bf;
-  border: 1px solid #38a9bf;
+  color: #205250;
+  border: 1px solid #205250;
   background-color: transparent;
 }
 
@@ -456,8 +456,8 @@ button:focus {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-     width: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50%;
 }
 
 .main-banner .mask .main-banner__text {
@@ -514,8 +514,10 @@ button:focus {
 .main-banner__dates span{
   font-weight: 200;
 }
+
 .main-banner__dates p{
   text-transform: uppercase;
+  width: 50%;
 }
 .main-banner__dates strong{
   font-weight: 700;
@@ -679,19 +681,19 @@ button:focus {
   position: relative;
   background-color: #005051;
   width: 100%;
-  padding: 0rem 6rem 2rem 2rem;
+  padding: 2rem 6rem 2rem 2rem;
   display: grid;
   grid-template-columns: 35% 65%;
 }
 
-.main-oneform__content:before{
+/*.main-oneform__content:before{
   position: absolute;
   content: '';
   height: 3rem;
   background-color:#005051;
   width: 100%;
   top:-3rem;
-}
+}*/
 .main-oneform__title{
   font-size: 24px;
   font-weight: bold;
@@ -797,7 +799,7 @@ select option{
 
 /* DETAILS*/
 .main-details{
-  padding-top: 100px;
+  padding-top: 40px;
 }
 .main-details__content{
   display: grid;
@@ -809,7 +811,7 @@ select option{
 }
 .main-details__box{
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 80%;
   grid-gap: 0.5rem;
 }
 .main-details__title p{
@@ -826,7 +828,7 @@ select option{
 }
 .main-details__icon{
   display: flex;
-  align-items: center;
+  align-items: end;
   position: relative;
 }
 
@@ -841,7 +843,7 @@ select option{
 .main-details__boxtext{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
 }
 
 
@@ -863,7 +865,29 @@ select option{
   flex-direction: column;
   justify-content: center;
   padding: 0 3rem 0 3rem;
-  background-color:#f5f5f5;
+
+}
+
+.main-about__img{
+  position: relative;
+}
+
+.Almanza-de-Llanogran {
+  width: 497px;
+  height: 158px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #474747;
+}
+.section-detalle{
+    background-color:#f5f5f5;
+        padding: 90px 0;
+         z-index: 0;
 }
 /* GALLERY */
 .main-gallery{
@@ -880,10 +904,10 @@ select option{
   margin-top: 2rem;
 }
 .main-gallery__content .slick-prev,.main-gallery__content .slick-next{
-  top: 25rem !important;
+  top: 48rem !important;
   width: 33px;
   height: 34px;
-  background-color: #f79200;
+  background-color: #205250;
 }
 .main-gallery__content .slick-prev {
   left: 0px;
@@ -914,7 +938,17 @@ select option{
 .main-zone{
   width: 100%;
   background-color: #f5f5f5;
-  padding: 0;
+  
+    padding: 35px 0 70px;
+}
+
+.bg-title-planos{
+    /* width: 265px; */
+    height: 259px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
 }
 .main-zone__content{
   display: grid;
@@ -946,7 +980,7 @@ select option{
 /*LOCATION*/
 .main-location{
   padding-top: 80px;
-  background-color:  #f5f5f5;
+  
 }
 .main-location__map{
   padding-top: 1rem;
@@ -968,12 +1002,23 @@ select option{
 .main-twoform__img img{
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .main-slidernav__img img{
   width: 100%;
 }
+.position-form-relative{
+  position: relative;
+}
+.position-form{
+  position: absolute;
+  top: 50px;
+    left: -10px;
+}
 
+.position-form p{
+  color: white;
+}
 
 .main-twoform input[type="text"],
 .main-twoform input[type="tel"],
@@ -1061,7 +1106,7 @@ ul.menu li a:hover, dd a:hover{
 
 .main-footer__copy{
   padding: 1rem;
-  background-color: #38a9bf;
+  background-color: #205250;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -1077,7 +1122,7 @@ ul.menu li a:hover, dd a:hover{
 }
 
 .main-maps{
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 100px;
 
 }
@@ -1086,10 +1131,10 @@ ul.menu li a:hover, dd a:hover{
   margin-right: 10px;
   width: 162px;
   height: 56px;
-  border: 1px solid  #38a9bf;
+  border: 1px solid  #205250;
 ;
   border-radius: 0;
-  background-color:  #38a9bf;
+  background-color:  #205250;
 ;
   position: relative;
   border-radius: 3px;
@@ -1103,7 +1148,7 @@ ul.menu li a:hover, dd a:hover{
   margin-right: 10px;
   width: 162px;
   height: 56px;
-  border: 1px solid  #38a9bf;
+  border: 1px solid  #205250;
 ;
   border-radius: 0;
   background-color: transparent;
@@ -1128,7 +1173,7 @@ ul.menu li a:hover, dd a:hover{
 .slider-for .slick-dots li:nth-child(2):after,
 .slider-for .slick-dots li:nth-child(3):after,
 .slider-for .slick-dots li:nth-child(4):after{
-  color: #38a9bf;
+  color: #205250;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
@@ -1142,8 +1187,12 @@ ul.menu li a:hover, dd a:hover{
 }
 
 .slider-for .slick-dots li:nth-child(2):after {
-  content: '49 m²';
+  content: 'Casa piso 1';
 }
+.slider-for .slick-dots li:nth-child(3):after {
+  content: 'Casa 2 Niveles';
+}
+
 
 .slider-for .slick-dots li.slick-active:nth-child(1):after,
 .slider-for .slick-dots li.slick-active:nth-child(2):after,
@@ -1162,7 +1211,7 @@ ul.menu li a:hover, dd a:hover{
 
 .slider.slider-nav .slick-dots li button {
   background: transparent;
-  border: 1px solid #38a9bf;
+  border: 1px solid #205250;
   display: block;
   height: 20px;
   width: 20px;
@@ -1177,7 +1226,7 @@ ul.menu li a:hover, dd a:hover{
 
 .slider.slider-nav .slick-dots li.slick-active button {
   border: 1px solid transparent;
-  background: #38a9bf;
+  background: #205250;
 }
 .slider.slider-nav .slick-dots li.slick-active button:before,.slick-dots li button:before{
   content: '';
@@ -1196,7 +1245,7 @@ ul.menu li a:hover, dd a:hover{
 
 .slider.slider-nav .slick-prev,.slider.slider-nav .slick-next{
   z-index: 999;
-  background-color: #38a9bf;
+  background-color: #205250;
   width: 40px;
   height: 40px;
   border-radius: 50%;
